@@ -1,0 +1,22 @@
+<h1>Articles</h1>
+<table>
+    <thead>
+        <tr>
+
+       
+        <th>#</th>
+        <th>Title</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+        <% articles.forEach(function(article){ %>
+            <tr>
+                <td><%= articles.id %></td>
+                <td><%= articles.title %></td>
+                <td></td>
+            </tr>
+
+       <% })%>
+    </tbody>
+</table>
